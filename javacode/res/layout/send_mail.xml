@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/send_mail_title"
+        android:textSize="20sp"
+        android:textColor="@color/LightCyan" />
+    
+    <EditText 
+        android:id="@+id/SendMailInfoEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="60sp"
+        android:hint="@string/send_mail_hint"
+        android:gravity="top|left"/>
+    
+    <RelativeLayout 
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/SendMailSendButton"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_marginLeft="60sp"
+        	android:text="@string/send"
+        	android:textColor="@color/DarkGreen"
+        	android:textSize="16sp"/>
+        
+        <Button 
+            android:id="@+id/SendMailCancelButton"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_marginRight="60sp"
+        	android:text="@string/cancel"
+        	android:textColor="@color/DarkGreen"
+        	android:textSize="16sp"/>
+    </RelativeLayout>
+    
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_02">
+    <TextView
+        style="@style/InitialWeightTitle"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/initial_weight_title" />
+    <TextView
+        style="@style/InitialWeightInfo"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/initial_weight_info" />
+
+	<LinearLayout
+	    android:layout_marginTop="100dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:orientation="horizontal" >
+
+	    <EditText
+	        android:id="@+id/InitialWeightInputEditText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/initial_weight_hint"
+	        android:inputType="number" 
+	        android:imeOptions="actionDone" />
+
+	    <TextView 
+	        style="@style/InitialWeightMeasurement"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/initial_weight_measurement"/>
+	</LinearLayout>
+    
+</LinearLayout>

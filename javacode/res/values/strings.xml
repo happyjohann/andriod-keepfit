@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">减肥食记</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="activity_title">Diet Diary!</string>
+    <string name="image_description">图片</string>
+    <string name="save">保存</string>
+    <string name="send">发送</string>
+    <string name="cancel">取消</string>
+    <string name="share">分享</string>
+    <string name="change_display">改变显示方式</string>
+    <string name="about">这是黄大强制作的\n "减肥食记" \n不完整版</string>
+    <string name="send_mail_title">您想对我们说：</string>
+    <string name="send_mail_hint">写下您的建议或意见</string>
+    <string name="menu_settings">设置</string>
+    <string name="initial_weight_title">减肥食记</string>
+    <string name="initial_weight_info">胖妞翻身大作战开始啦，请输入此时此地此身你的体重值~</string>
+    <string name="initial_weight_hint">请输入您的体重</string>
+	<string name="initial_weight_measurement">kg</string>
+	<string name="main_diary">食记</string>
+	<string name="main_add">添加</string>
+	<string name="main_setting">设置</string>
+	<string name="main_title_and_date">减肥第一天\n11.11</string>
+	<string name="main_calories">5000KJ</string>
+	<string name="add_food_note">类型</string>
+	<string name="add_food_name">食物名称</string>
+	<string name="add_food_calories">热量</string>
+	<string name="setting_weight">体重：50kg</string>
+	<string name="setting_weight_hint">请输入数字</string>
+	<string name="setting_weight_update">设置新体重</string>
+	<string name="setting_weight_cancel">取消设置</string>
+	<string name="setting_remaind">提醒时间  未设定</string>
+	<string name="setting_remaind_time">设置新时间</string>
+	<string name="setting_share">分享设置</string>
+	<string name="setting_accounts">账号管理</string>
+	<string name="setting_fadeback">用户反馈</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_05" >
+    <TextView 
+        android:id="@+id/SettingWeightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="40dp"
+        android:text="@string/setting_weight"
+        android:textColor="@color/Brown" />
+    <Button 
+        android:id="@+id/SettingWeightButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_02"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Brown"
+        android:text="@string/setting_weight_update" />
+	<TextView 
+	    android:id="@+id/SettingRemaindTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Brown"
+        android:text="@string/setting_remaind" />
+    <Button 
+        android:id="@+id/SettingRemaindButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Brown"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_03"
+        android:text="@string/setting_remaind_time" />
+    <TextView 
+        android:id="@+id/SettingShareTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Brown"
+        android:text="@string/setting_share" />
+    <Button 
+        android:id="@+id/SettingFadebackButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_02"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Brown"
+        android:text="@string/setting_fadeback" />
+    <Button 
+        android:id="@+id/SettingAccountsButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="@string/setting_accounts" />
+</LinearLayout>
